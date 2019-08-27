@@ -1,0 +1,22 @@
+La idea de la solución es la siguiente:
+=======================================
+1. Armar una matriz (Tablero).
+2. Validar que la dimensión del tablero no sea menor a 3 X 3
+3. Crear lista de las posiciones en el tablero que seran vivos.
+4. Definir en el tablero las células muertas con el valor 0
+5. Definir en el tablero las células vivas con el valor 1
+6. Definir y validar las reglas del juego
+7. iniciar el juego.
+=========================================
+Pasos para correr el proyecto
+=========================================
+1. En el listado de celulas vivas ingresar las coordenadas de la matriz (Ya cuenta con datos cargados).
+2. Definir la dimensión del tablero para dibujar la matriz.
+3. Dar run al proyecto y el mismo Armará el tablero con las células vivas. 
+
+En este punto no conseguí aplicar las reglas de juego y una prueba unitaria no pude hacer que funcione 
+a pesar de que el método realiza lo que se quiere.
+
+Posdata: Continuare con la solución en el transcurso de la semana si consigo algun avanse lo comentaré 
+         en este archivo
+

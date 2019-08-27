@@ -36,8 +36,8 @@ public class GameTheLifeTest extends TestCase{
     }
     @Test
     public void testLesThanTwo(){
-        int row = 2;
-        int colum = 3;
+        int row = 1;
+        int colum = 4;
         assertEquals(GameTheLife.GameRules(row, colum),0);
     }
     /**
