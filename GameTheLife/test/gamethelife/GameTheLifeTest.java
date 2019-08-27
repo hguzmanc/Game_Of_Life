@@ -34,6 +34,12 @@ public class GameTheLifeTest extends TestCase{
         int colum = 3;
         assertEquals(GameTheLife.DefinedDeadLive(row, colum),1);
     }
+    @Test
+    public void testLesThanTwo(){
+        int row = 2;
+        int colum = 3;
+        assertEquals(GameTheLife.GameRules(row, colum),0);
+    }
     /**
      * Test of main method, of class GameTheLife.
      */
